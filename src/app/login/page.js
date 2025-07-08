@@ -18,7 +18,7 @@ export default function LoginPage() {
     }
 
     // Dummy login check — replace with real API call
-    if (email === 'admin@example.com' && password === 'password123') {
+    if (email === 'admin@123' && password === '123@123') {
       router.push('/dashboard');
     } else {
       setError('Invalid email or password');
